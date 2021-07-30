@@ -10,13 +10,13 @@ describe('calculator.js', function() {
         calculator.substract(5)
         expect(calculator.total).toBe(25)
     })
-    it('should add numbers to total', function() {
+    xit('should add numbers to total', function() {
         const calculator = new Calculator()
         calculator.total = 20
         calculator.multiply(5)
         expect(calculator.total).toBe(100)
     })
-    it('should add numbers to total', function() {
+    xit('should add numbers to total', function() {
         const calculator = new Calculator()
         calculator.total = 100
         calculator.divide(5)
